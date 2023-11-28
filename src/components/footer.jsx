@@ -13,11 +13,15 @@ const Footer = () => {
                     <h2>S.A.M Cleaning Services</h2>
                 </div>
                 <div className={styles.right}>
-                    <h2>Location</h2>
-                    <span>Butuan City<br/>8600</span>
+                    <div>
+                        <h2>Location</h2>
+                        <span>Butuan City<br/>8600</span>
+                    </div>
                     <h2 onClick={() => navigate("/services/experts")}>Cleaners</h2>
-                    <span>0991 465 3006</span>
-                    <h2>SAMCleaningServices@gmail.com</h2>
+                    <div>
+                        <h2>SAMCleaningServices@gmail.com</h2>
+                        <span>0991 465 3006</span>
+                    </div>
                 </div>
                 <p>© Copyright 2020. All rights reserved. S.A.M Cleaning Services</p>
             </div>

@@ -39,7 +39,7 @@ const BookingDetailsPage = ({handleBookings}) => {
         <>
             <Header/>
             <section className={styles.container}>
-                <h1>Booking Details > <a>Payment</a></h1>
+                <h1>Booking Details<a>Payment</a></h1>
                 <form className={styles.form} onSubmit={handleSubmit}>
                     <h2>Address Details</h2>
                     <div className={styles.top}>
